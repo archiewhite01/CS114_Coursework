@@ -1,0 +1,354 @@
+
+
+/* fonts--------------------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: 'font';
+    src:  url('../css/regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'font';
+    src: url('../css/bold.ttf');
+    font-weight: bold;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/*header css styling*/
+body{
+    margin:10%;
+    margin-top: 5%;
+    font-family: font;
+    font-size: 1rem;
+    background-image: url("../images/victor-xok-Gi0OMNguFaw-unsplash.jpg");}
+
+/* Header style */
+.header {
+    height: 10rem;
+    grid-area: header;
+    font-size: 8%;
+    width: auto;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+
+/* title styles*/
+.title {
+    color: white;
+    line-height: 1;
+    width: auto;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+
+.title a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+}
+
+
+.title a:hover,
+.title a:focus {
+    text-decoration: underline;
+}
+
+.tagline{
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding-left:1rem;
+    color: #cccccc;
+}
+
+
+/* navigation bar style ---------------------------------------------------------------------------------------------*/
+.navigation {
+    font-family: font;
+    font-weight: bold;
+    /*background-color: #222222;*/
+    overflow: hidden;
+    font-size: 1.2rem;
+    line-height: 1;
+    padding-top: .75rem;
+    margin-bottom: 1rem;
+}
+
+
+.navigation a {
+    color: lightslategrey;
+    float: left;
+    text-align: center;
+    padding: 0.9rem 1rem;
+    text-decoration: none;
+}
+
+
+.navigation a:hover,
+.navigation a:focus {
+    text-decoration: underline;
+    color: inherit;
+}
+
+
+.navigation a.active {
+    background-color: #222222;
+    color: inherit
+}
+
+.center-header{
+    alignment: right;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/* Body style*/
+
+/*general page styling*/
+
+h1{
+    font-weight: bold;
+    font-size: 6rem;
+
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+h3{
+    font-weight:bold;
+    font-size:1.5rem;
+}
+p{
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+.panel {
+    padding-top: 5rem;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.left-align {
+    text-align: left;
+    padding: 14px;
+    margin: 10px;
+}
+
+.center-align {
+    padding-top: 5rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.center-align2 {
+    padding-top: 1rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.basic-format{
+    padding: 2rem;
+    color: black;
+    background-color: #EEEEEE;
+    width: 20%;
+    min-width: 180px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.basic-format:active{
+    box-shadow: 2px 2px;
+    transform: translate(2px,2px);
+}
+
+.center {
+    text-align: center;
+}
+
+
+.display-text {
+    font-size: xx-large;
+}
+
+.calendar{
+    padding-top:8rem;
+}
+.main{
+    font-weight: bold;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    width:100%;
+    alignment: right;
+}
+
+.page-header{
+    color: white;
+    text-align: left;
+    padding-top: 6rem;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/*footer styles*/
+.footer {
+    padding-left: 9.8%;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    font-weight: normal;
+    background-color: #222222;
+    overflow: hidden;
+    font-size: 2vw;
+    line-height: 1;
+    margin: auto;
+}
+
+
+.footer a {
+    float: left;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 0.9rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+.footer a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.image{
+    width:40%;
+    margin: 10px;
+    text-align: center;
+}
+/*------------------------------------------------------------------------------------------------------------------*/
+/* contact page form css*/
+input[type=text], input[type=password],select, textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=button]{
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+.button1{
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+.cell {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.cell2 {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+th{
+    font-size: 1rem;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+    background-color: #cccccc;
+    alignment: left;
+}
+
+th,td{
+    font-family: inherit;
+    padding: .5em 1em;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    margin: 0;
+    overflow: visible;
+    box-sizing: border-box;
+}
+td{
+    font-size: 1rem;
+    background-color: #f2f2f2;
+}
+
+.table{
+    color: black;
+    alignment: left;
+}
+
+.nav-item{
+    color: white;
+    padding-right: 2rem;
+}
+
+.form{
+    padding-bottom: 2%;
+}
+
+
+
+.button2 {
+    transition: all .3s;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.button2:not(.active) {
+    background-color:transparent;
+}
+
+.active {
+    background-color: #ff4d4d;
+    color :#fff;
+}
+
+.button2:hover:not(.active) {
+    background-color: #ddd;
+}
