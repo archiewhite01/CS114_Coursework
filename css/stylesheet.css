@@ -14,12 +14,12 @@
 
 /*------------------------------------------------------------------------------------------------------------------*/
 /*header css styling*/
-body{
-    margin:10%;
+body {
+    margin: 10%;
     margin-top: 5%;
     font-family: font;
     font-size: 1rem;
-    background-image: url("../images/victor-xok-Gi0OMNguFaw-unsplash.jpg");}
+}
 
 /* Header style */
 .header {
@@ -34,7 +34,7 @@ body{
 
 /* title styles*/
 .title {
-    color: white;
+    color: black;
     line-height: 1;
     width: auto;
     margin: auto;
@@ -112,7 +112,7 @@ h1{
 }
 
 h2{
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 3rem;
 }
