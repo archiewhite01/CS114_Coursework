@@ -190,7 +190,7 @@ p{
 }
 
 .page-header{
-    color: white;
+    color: black;
     text-align: left;
     padding-top: 6rem;
 }
@@ -199,7 +199,7 @@ p{
 /*footer styles*/
 .footer {
     padding-left: 9.8%;
-    color: white;
+    color: black;
     position: fixed;
     left: 0;
     bottom: 0;
