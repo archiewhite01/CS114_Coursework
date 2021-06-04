@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e8af502c-40c8-4d9c-85b5-113888790a96" name="Home" url="http://localhost:">
+        <fileTransfer mountedRoot="C:\Users\xdb20178\IdeaProjects\CS114_Coursework_KD" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

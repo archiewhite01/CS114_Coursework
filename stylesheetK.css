@@ -1,0 +1,67 @@
+/** about us page*/
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+@media screen and (max-width: 950px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(38, 37, 37, 0.2);
+    margin: 8px;
+    background: white;
+    border: 2px solid #9de06d;
+    border-radius: 5px;
+    padding: 10px;
+    height: 475px;
+}
+
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    height: 500px;
+}
+.header {
+    padding: 63px;
+    text-align: center;
+    color: white;
+    background: #b2d68d;
+}
+.header h1 {
+    font-size: 45px;
+}
+
+
+/**WEATHER **/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
