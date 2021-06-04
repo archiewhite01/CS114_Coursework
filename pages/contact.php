@@ -41,4 +41,7 @@
             </form>
         </div>
     </body>
+    <footer>
+        <?php include '../html/footer.html'; ?>
+    </footer>
 </html>
