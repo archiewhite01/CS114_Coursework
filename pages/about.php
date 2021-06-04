@@ -15,7 +15,7 @@
 <div class="row">
     <div class="column">
         <div class="card">
-            <img src="images/story.jpg" alt="aboutpg" style="width:100%">
+            <img src="../images/story.jpg" alt="aboutpg" style="width:100%">
             <div class="container">
                 <h2>Our History</h2>
                 <p>Here at BoringNews Corp, we started a small website that was run from the dining room of a little London flat.
@@ -28,7 +28,7 @@
 
     <div class="column">
         <div class="card">
-            <img src="images/mission.jpg" alt="aboutpg" style="width:100%">
+            <img src="../images/mission.jpg" alt="aboutpg" style="width:100%">
             <div class="container">
                 <h2>Our Mission</h2>
                 <p> To bring relatively current news, weather and sports in one convenient place that will probably not
@@ -41,7 +41,7 @@
 
     <div class="column">
         <div class="card">
-            <img src="images/success.jpeg" alt="aboutpg" style="width:100%">
+            <img src="../images/success.jpeg" alt="aboutpg" style="width:100%">
             <div class="container">
                 <h2>Careers</h2>
                 <p>Are you a passionate writer? Would you like to work with an amazing team of reporters writing about
