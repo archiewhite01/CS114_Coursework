@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>About us</title>
-    <link rel="stylesheet" href="../stylesheetK.css">
+    <link rel="stylesheet" href="../css/stylesheetK.css">
     <?php include '../html/header.html'; ?>
 </head>
 <body>
