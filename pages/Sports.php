@@ -47,7 +47,7 @@
 </section>
 
 <footer>
-    <p></p>
+    <?php include '../html/footer.html'; ?>
 </footer>
 </html><?php
 
