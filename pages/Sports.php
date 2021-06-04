@@ -13,7 +13,7 @@
         <a>Read more...</a>
     </article>
     <article>
-        <h3>Harry Kane quoted saying "I love Shpurs" hours before announcing his intended departure from the club</h3>
+        <h3>Harry Kane quoted saying "I love Spurs" hours before announcing his intended departure from the club</h3>
         <img src="../images/HarryKane.jpg" alt="Hazza K" width="70%">
         <p>Yound Spurs fan filmed Harry Kane leaving the new Tottenham Hotspur Stadium claiming he loves the club before driving straight to his agents house to discuss a move from his Club</p>
         <a>Read more...</a>
